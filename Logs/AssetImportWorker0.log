@@ -1,0 +1,1071 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 12012 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Diana/Desktop/Descoo 2025-0.1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52097
+Successfully changed project path to: C:/Users/Diana/Desktop/Descoo 2025-0.1
+C:/Users/Diana/Desktop/Descoo 2025-0.1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26040]  Target information:
+
+Player connection [26040]  * "[IP] 26.239.128.16 [Port] 0 [Flags] 2 [Guid] 567219633 [EditorId] 567219633 [Version] 1048832 [Id] WindowsEditor(7,Diana) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26040]  * "[IP] 192.168.100.113 [Port] 0 [Flags] 2 [Guid] 567219633 [EditorId] 567219633 [Version] 1048832 [Id] WindowsEditor(7,Diana) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26040] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 3438.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diana/Desktop/Descoo 2025-0.1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     6006 MB
+    Driver:   31.0.101.4502
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 1.945041 seconds.
+- Loaded All Assemblies, in 16.526 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 679 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.145 seconds
+Domain Reload Profiling: 18667ms
+	BeginReloadAssembly (13057ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (121ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (2154ms)
+	LoadAllAssembliesAndSetupDomain (1156ms)
+		LoadAssemblies (13128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1076ms)
+			TypeCache.Refresh (1072ms)
+				TypeCache.ScanAssembly (1028ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2147ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1988ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1419ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.278 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.406 seconds
+Domain Reload Profiling: 19640ms
+	BeginReloadAssembly (478ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (16441ms)
+		LoadAssemblies (15881ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (855ms)
+			TypeCache.Refresh (756ms)
+				TypeCache.ScanAssembly (538ms)
+			ScanForSourceGeneratedMonoScriptInfo (64ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (92ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (1316ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 23.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (127.9 KB). Loaded Objects now: 4259.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 11.029200 ms (FindLiveObjects: 2.051500 ms CreateObjectMapping: 0.560600 ms MarkObjects: 8.064600 ms  DeleteObjects: 0.349400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169568.872644 seconds.
+  path: Assets/Scenes/WinScene.unity
+  artifactKey: Guid(db316a13fddd12e4ca8ee9b49a919e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/WinScene.unity using Guid(db316a13fddd12e4ca8ee9b49a919e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dd5660bac900d9f5f2f8433f8dfcf59') in 0.242660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container.html
+  artifactKey: Guid(5ebde53922c70044aa665c82dfc43e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container.html using Guid(5ebde53922c70044aa665c82dfc43e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7f8e91b05861efda89f85b66432fcfd') in 0.182094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable.html
+  artifactKey: Guid(5c719360da412e546bd05962df7e59e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable.html using Guid(5c719360da412e546bd05962df7e59e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '797eccc44e963025c753fe1a4de7bdeb') in 0.160876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Mini First Person Controller/Audio/Steps.wav
+  artifactKey: Guid(f8c14f2814b4b124a894a65c32c44987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Steps.wav using Guid(f8c14f2814b4b124a894a65c32c44987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2091a59618ade30c5f809641313ee706') in 0.235210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Plugins/DragNDrop/3D/QuickStart3D.prefab
+  artifactKey: Guid(5bee4778a61841d4691dbb3cc8565dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/3D/QuickStart3D.prefab using Guid(5bee4778a61841d4691dbb3cc8565dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb6c814ef1f854465a3957bb6b40278d') in 0.127836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav
+  artifactKey: Guid(3e0e4a1bf1a03c24a85ad855f4be231e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav using Guid(3e0e4a1bf1a03c24a85ad855f4be231e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2916bfec96395ff745999d524268d475') in 0.126411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/Calle.unity
+  artifactKey: Guid(2ab8d0603d99dd64a9dd438d8f10960c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Calle.unity using Guid(2ab8d0603d99dd64a9dd438d8f10960c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6e129cf85af451f96d121ebe315b63f') in 0.028289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_container__coll__graph.dot
+  artifactKey: Guid(6dbd2e187fe329f4c87d320d0301f6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_container__coll__graph.dot using Guid(6dbd2e187fe329f4c87d320d0301f6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c6499302065e923925c00b1d424ff25') in 0.030973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_a2d8624989a3eed94a8e4c4abebfaf39f_cgraph.dot
+  artifactKey: Guid(be4d147e9596b5b4883391519ed21f1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_a2d8624989a3eed94a8e4c4abebfaf39f_cgraph.dot using Guid(be4d147e9596b5b4883391519ed21f1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ef25b9e2d03389ff37dfce7e077d597') in 0.034725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs
+  artifactKey: Guid(6f45facc01772ba47a9ae17bb7061b71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs using Guid(6f45facc01772ba47a9ae17bb7061b71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '799086070f5a81316ef2e92604aa5a68') in 0.039915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mini First Person Controller/Demo/readme.pdf
+  artifactKey: Guid(2d6d961d8f9e0bc4198fc156b2d945a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Demo/readme.pdf using Guid(2d6d961d8f9e0bc4198fc156b2d945a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98769dae2a973f334ac954c1d244b429') in 0.029024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/bc_sd.png
+  artifactKey: Guid(efd19210493979d43a027f7d1913bba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/bc_sd.png using Guid(efd19210493979d43a027f7d1913bba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed2aac50d3e8a2e99af2b37f4c62d079') in 0.228455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/inherit_graph_0.dot
+  artifactKey: Guid(efcf764395f6d7d46b8affc3d595e951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/inherit_graph_0.dot using Guid(efcf764395f6d7d46b8affc3d595e951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcb7f9af1c2ecb2e5225e6019ee353ae') in 0.034034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/doxygen_crawl.html
+  artifactKey: Guid(69481876eb7aa6646ae39e2bc0d46b86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/doxygen_crawl.html using Guid(69481876eb7aa6646ae39e2bc0d46b86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '326680be3d5f35684ba8781250d018c2') in 0.051242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/index.html
+  artifactKey: Guid(1df81376acc6fed428a8ec373528bf54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/index.html using Guid(1df81376acc6fed428a8ec373528bf54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a3c14b817a8bfb1638e2b33c5f12ca67') in 0.139448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_drag_manager__coll__graph.dot
+  artifactKey: Guid(b8cceab1117da8743bf82302c0d92df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_drag_manager__coll__graph.dot using Guid(b8cceab1117da8743bf82302c0d92df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f80e2bc8b65d56abf6a165521a7427d5') in 0.044042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container_editor.html
+  artifactKey: Guid(338d58d833eef9e40af143862784b3fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container_editor.html using Guid(338d58d833eef9e40af143862784b3fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '231ac9bfc0907a929880deacc61c4a93') in 0.167083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/namespace_com_1_1_kherus_emporium_1_1_drag_n_drop.js
+  artifactKey: Guid(7e04aba66e8923545a1a1ed7bffe050e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/namespace_com_1_1_kherus_emporium_1_1_drag_n_drop.js using Guid(7e04aba66e8923545a1a1ed7bffe050e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efbcc60087e1f07811efdfcd457b9243') in 0.041756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/namespace_com_1_1_kherus_emporium_1_1_drag_n_drop.html
+  artifactKey: Guid(02990a4f2f9bae84aa8429512b720e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/namespace_com_1_1_kherus_emporium_1_1_drag_n_drop.html using Guid(02990a4f2f9bae84aa8429512b720e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdd4c216a27399cce05244866845c0aa') in 0.158189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch end 2.wav
+  artifactKey: Guid(e6f44b6fce71be34dbbd6d12cb3d3b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch end 2.wav using Guid(e6f44b6fce71be34dbbd6d12cb3d3b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '068e7650eeb8ac8c60960fca9a803529') in 0.123251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Mini First Person Controller/First Person Controller.prefab
+  artifactKey: Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/First Person Controller.prefab using Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3fd3c37bc46cbbe2d3bfe14cbc225ec7') in 0.581429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/open.png
+  artifactKey: Guid(e83a5966801ae0b4f90d27ce91ee5aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/open.png using Guid(e83a5966801ae0b4f90d27ce91ee5aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '770bd77c3cecbd712eb2aeeb558f7183') in 0.081926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tab_s.png
+  artifactKey: Guid(54fd613bb6fba7a4f80f39821dfaa2ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tab_s.png using Guid(54fd613bb6fba7a4f80f39821dfaa2ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4a6b7ce2ade2fd01f455f5910a6820f') in 0.087677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_editor-members.html
+  artifactKey: Guid(40affbd6ac9a67e419126cce362f477a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_editor-members.html using Guid(40affbd6ac9a67e419126cce362f477a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f84f4f3e4d93e405104b0c3935e04dee') in 0.146422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container_editor__inherit__graph.dot
+  artifactKey: Guid(1c7663fb314565544aad636958753ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container_editor__inherit__graph.dot using Guid(1c7663fb314565544aad636958753ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a3325dba2122a7f8637dfe2f5ac63f0') in 0.045410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/menu.js
+  artifactKey: Guid(13199988967b85f48aa719e4a929111f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/menu.js using Guid(13199988967b85f48aa719e4a929111f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1fa4c321e53851eb56d209ecd0f4f0fc') in 0.032229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/clipboard.js
+  artifactKey: Guid(98a675c43284d7048b1f2cec0962be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/clipboard.js using Guid(98a675c43284d7048b1f2cec0962be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8a7a35f8392b9593642d3cfa55fedb2') in 0.033659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/inherit_graph_1.dot
+  artifactKey: Guid(c45e9020c015aae488106247215648e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/inherit_graph_1.dot using Guid(c45e9020c015aae488106247215648e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f20e43d0cf594c859332c32b4c2f075') in 0.030011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tab_b.png
+  artifactKey: Guid(979c1075d2a18be46b57356590e334e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tab_b.png using Guid(979c1075d2a18be46b57356590e334e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b77839a449b5a34a373cd9d5b9621f0') in 0.064828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Jump.cs
+  artifactKey: Guid(8f977f53412d81140ab13b3fca57cca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Jump.cs using Guid(8f977f53412d81140ab13b3fca57cca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9d3865766d769e8fcb161fc6575bfa4') in 0.031144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/docd.svg
+  artifactKey: Guid(95b2eab64726abb48ab33a3721c622cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/docd.svg using Guid(95b2eab64726abb48ab33a3721c622cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f618e28dd834f3b6b4bda55217c4a6d') in 0.031740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/inherits.html
+  artifactKey: Guid(eb53a8b3c367bbd499ab1b37e48232dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/inherits.html using Guid(eb53a8b3c367bbd499ab1b37e48232dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41c50108af5d630ff07a6444698956b9') in 0.118926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/DragNDrop/3D/Materials/Blue.mat
+  artifactKey: Guid(e915c02f051324a48bf3ef4495df20f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/3D/Materials/Blue.mat using Guid(e915c02f051324a48bf3ef4495df20f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9244592333f2388afa5f917642487331') in 0.099915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/_drag_manager_editor_8cs.js
+  artifactKey: Guid(85ddec9dac9413d40b2eb6cb3a7a92ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/_drag_manager_editor_8cs.js using Guid(85ddec9dac9413d40b2eb6cb3a7a92ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '761c67ec16f3184f3d529c43eb3e363b') in 0.034054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/DragNDrop/3D/Materials/Container.mat
+  artifactKey: Guid(ecdc103616bd48746b6ac52906ad83d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/3D/Materials/Container.mat using Guid(ecdc103616bd48746b6ac52906ad83d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '556f030e975de39d2dff7870f3d35cd4') in 0.102545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_drag_manager_editor__coll__graph.dot
+  artifactKey: Guid(a2aa7c5f28c243848ae112a1d5eb6c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_drag_manager_editor__coll__graph.dot using Guid(a2aa7c5f28c243848ae112a1d5eb6c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8e8bb04f6d1cae7718739eef779e063') in 0.035023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tab_bd.png
+  artifactKey: Guid(fcf1934cd17ed3642a61f21fb24b11b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tab_bd.png using Guid(fcf1934cd17ed3642a61f21fb24b11b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b33de4676b468a31006b55a57398998') in 0.087209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tab_ad.png
+  artifactKey: Guid(91c4843c9be5ce04eb98cea9da04eccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tab_ad.png using Guid(91c4843c9be5ce04eb98cea9da04eccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b65b788be0ed10f5c01cee065d504a5') in 0.085829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/DragNDrop/3D/Prefabs/MultipleContainer3D.prefab
+  artifactKey: Guid(e0a13a382bafb9a4db069cf48246a585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/3D/Prefabs/MultipleContainer3D.prefab using Guid(e0a13a382bafb9a4db069cf48246a585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5ddfa9adbd51f69574ccd952cde3c75') in 0.126664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/all_3.js
+  artifactKey: Guid(ea556a01c04215e43864335fd09946ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/all_3.js using Guid(ea556a01c04215e43864335fd09946ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '595a3360261dddabec5905f691434261') in 0.032149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/all_9.js
+  artifactKey: Guid(3b10f2e62fa42914b807d3af9c088993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/all_9.js using Guid(3b10f2e62fa42914b807d3af9c088993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f685678ad8e48ab042e6cb51e417b8da') in 0.032035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_a4727c652b87fd8ed0f268ea7a9385c21_cgraph.dot
+  artifactKey: Guid(c067f44fea3046d4f843b064b6b47f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_a4727c652b87fd8ed0f268ea7a9385c21_cgraph.dot using Guid(c067f44fea3046d4f843b064b6b47f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38b0ec094e9d8512f9cff680e066ced2') in 0.037189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/DragNDrop/3D/Prefabs/SingleContainer3D.prefab
+  artifactKey: Guid(d8b73221d4be7ee478dc80019f74ee67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/3D/Prefabs/SingleContainer3D.prefab using Guid(d8b73221d4be7ee478dc80019f74ee67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea02d9f1bcdc328906a7cd0b4a8d323b') in 0.086012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/namespaces_dup.js
+  artifactKey: Guid(d9bc47a598ca50f4eb9f20f31344fdb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/namespaces_dup.js using Guid(d9bc47a598ca50f4eb9f20f31344fdb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80268069d20293bdcc2baccf97ce1206') in 0.030680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable__coll__graph.dot
+  artifactKey: Guid(fcfe7e66a03ed6d45ad83c022f6944ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable__coll__graph.dot using Guid(fcfe7e66a03ed6d45ad83c022f6944ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b7ac520632eb12e4aa7ad2c865ed81c') in 0.040935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scripts/Collectibles/ItemCollector.cs
+  artifactKey: Guid(dc7d64c94cb0d1d468361ed45da32571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Collectibles/ItemCollector.cs using Guid(dc7d64c94cb0d1d468361ed45da32571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '015652ed55ec895edc83779237000a0f') in 0.039198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container__coll__graph.dot
+  artifactKey: Guid(1d7e05c7155d6a940b96fc33e78af033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container__coll__graph.dot using Guid(1d7e05c7155d6a940b96fc33e78af033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ee6f7c319ce306d5084c701a7114b61') in 0.038800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container-members.html
+  artifactKey: Guid(13aad5cf965079740bc26d9a180ca19f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container-members.html using Guid(13aad5cf965079740bc26d9a180ca19f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a600d18c506337c1c459d959c7d42c81') in 0.158873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/enumvalues_3.js
+  artifactKey: Guid(7cff2c39d388fc4469122bda1da25429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/enumvalues_3.js using Guid(7cff2c39d388fc4469122bda1da25429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '653b5b1ccffd4a81386b3fd9d550661c') in 0.044841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/mag_d.svg
+  artifactKey: Guid(b3cb44bfd83efc04fb9ac31c1452321a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/mag_d.svg using Guid(b3cb44bfd83efc04fb9ac31c1452321a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a07aaaf7941bb4dbe602655fe37f9644') in 0.033086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/functions_3.js
+  artifactKey: Guid(5799a592a30c26147826560e23795216) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/functions_3.js using Guid(5799a592a30c26147826560e23795216) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b06157ca90b1a919a89be711a505c9bd') in 0.035775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/enumvalues_0.js
+  artifactKey: Guid(a825825eff8898e45b71ad2efbe6fe2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/enumvalues_0.js using Guid(a825825eff8898e45b71ad2efbe6fe2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '066eeb7f7cc58cc9b67a0ba3e1069ce6') in 0.032547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/mag_sel.svg
+  artifactKey: Guid(c21ae1cf958cf4f4b88414f4e0c8faa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/mag_sel.svg using Guid(c21ae1cf958cf4f4b88414f4e0c8faa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3576fe0e158dcf1f13f26aa963eb0573') in 0.030672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/enumvalues_4.js
+  artifactKey: Guid(b34d0057bbeac6d4e934d901cdd3b9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/enumvalues_4.js using Guid(b34d0057bbeac6d4e934d901cdd3b9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '370932e637f7dfa883175be3ba8d27a7') in 0.033484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/classes_2.js
+  artifactKey: Guid(bcd84dcdf6ddd7549b87f79c7e4f0c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/classes_2.js using Guid(bcd84dcdf6ddd7549b87f79c7e4f0c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f112b057e22fa64aa3182c5e42c9271b') in 0.030464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tabs.css
+  artifactKey: Guid(168bb3c7144bb3349a22243bb46eb801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tabs.css using Guid(168bb3c7144bb3349a22243bb46eb801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e7acacbde502ce4ab17cbea60088411') in 0.029924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/doxygen.css
+  artifactKey: Guid(452a1c684249a8a4791d02ddc83e450f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/doxygen.css using Guid(452a1c684249a8a4791d02ddc83e450f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2ed415d2195168bc600bdd2b3d71dbd') in 0.035824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/_multiple_container_editor_8cs.js
+  artifactKey: Guid(a2f64795c2aee7b4991bd0094ca70300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/_multiple_container_editor_8cs.js using Guid(a2f64795c2aee7b4991bd0094ca70300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '609d3e379491a73d32a82686abb27626') in 0.034130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/Parque.unity
+  artifactKey: Guid(b736898fef99ce843bc72c5f6d6faa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Parque.unity using Guid(b736898fef99ce843bc72c5f6d6faa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1231e25000a79d42db466e0730d03577') in 0.029847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/variables_1.js
+  artifactKey: Guid(4aefba492b9c64e4f873364d85a0e928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/variables_1.js using Guid(4aefba492b9c64e4f873364d85a0e928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0297941c055a409e146ffdebdd05757a') in 0.035074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Plugins/DragNDrop/Scripts/Editor/SingleContainerEditor.cs
+  artifactKey: Guid(d164af4caad233940b83519131ab6583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Scripts/Editor/SingleContainerEditor.cs using Guid(d164af4caad233940b83519131ab6583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a6b79eb2c2bb95cca0f243c25b55646a') in 0.040398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/DragNDrop/Scripts/Editor/DraggableEditor.cs
+  artifactKey: Guid(b832aa3223d36174e941eb1693e14bd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Scripts/Editor/DraggableEditor.cs using Guid(b832aa3223d36174e941eb1693e14bd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66b259a0745586d0885b4971a3b0bccb') in 0.039312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/mag_seld.svg
+  artifactKey: Guid(21730216bf8c1354b81eae0d582841a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/mag_seld.svg using Guid(21730216bf8c1354b81eae0d582841a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3098f8f84adc9ea5505870b811c0e0a8') in 0.037548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/variables_0.js
+  artifactKey: Guid(aaf9f961089fa7f439ee98a9f23d8a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/variables_0.js using Guid(aaf9f961089fa7f439ee98a9f23d8a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e0044b1f076d7f8ff46d4047676e977') in 0.031267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Plugins/DragNDrop/Scripts/Editor/DragManagerEditor.cs
+  artifactKey: Guid(f77072f349da7a74eba0899acd7dc0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Scripts/Editor/DragManagerEditor.cs using Guid(f77072f349da7a74eba0899acd7dc0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '858002cff97b7fa96ff83a3f14544e21') in 0.033471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/Player/IthemThrower.cs
+  artifactKey: Guid(e39a9ebbdf21146418a38b89382f2229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player/IthemThrower.cs using Guid(e39a9ebbdf21146418a38b89382f2229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60774f34001451f3f248d3cbd1d9770d') in 0.032316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/UI/MenuPrincipal.cs
+  artifactKey: Guid(44f9745d34a15b549b874cfe91be0b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UI/MenuPrincipal.cs using Guid(44f9745d34a15b549b874cfe91be0b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c7b1ecc28a18def797d5534f2145863') in 0.032941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/_multiple_container_8cs.js
+  artifactKey: Guid(d2124f60894983c4481a805de9453742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/_multiple_container_8cs.js using Guid(d2124f60894983c4481a805de9453742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90aa704c102fb8173a9e0a8f7651d2ac') in 0.031102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump/Jump 1.wav
+  artifactKey: Guid(3888a1e1c52793144a6d07b8c508772e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Jump/Jump 1.wav using Guid(3888a1e1c52793144a6d07b8c508772e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af4ab1daaf853c0faf9f1c49a27476f0') in 0.086031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container_editor__coll__graph.dot
+  artifactKey: Guid(3ea459017d5efb64fa2d9f72f12d522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container_editor__coll__graph.dot using Guid(3ea459017d5efb64fa2d9f72f12d522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '112258096318d623df2ddfff6fd2cf00') in 0.036919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav
+  artifactKey: Guid(50b288ce0d5ac1e439827c5365c74c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav using Guid(50b288ce0d5ac1e439827c5365c74c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b89943b69b5fdedaac49dbd7ee5f7ab') in 0.087425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tab_h.png
+  artifactKey: Guid(c033a568b00f1584f9f151cf1298a739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tab_h.png using Guid(c033a568b00f1584f9f151cf1298a739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b545482ad37b257639991f04372d54b7') in 0.084551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/tab_sd.png
+  artifactKey: Guid(41964a8fa3ea12d42a46dc9e4bdf9875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/tab_sd.png using Guid(41964a8fa3ea12d42a46dc9e4bdf9875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83628718850e582f518600f915fc4b7a') in 0.088037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/DragNDrop/2D/2D.unity
+  artifactKey: Guid(472bbc1a46798b34d980df57dbd9c157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/2D/2D.unity using Guid(472bbc1a46798b34d980df57dbd9c157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '491e7707813fa3d18763ad0781a36c87') in 0.035620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav
+  artifactKey: Guid(ab9637a2491abbf4ca9c9601321cbb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav using Guid(ab9637a2491abbf4ca9c9601321cbb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82bf485ef37c17ce3c1c670249227b83') in 0.102679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Plugins/DragNDrop/3D/Materials/Red.mat
+  artifactKey: Guid(9c86583b309578b4b95d36d9a879e404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/3D/Materials/Red.mat using Guid(9c86583b309578b4b95d36d9a879e404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46b5a724d4f0cf0fa0d817d5222a00a5') in 0.038844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs
+  artifactKey: Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs using Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0bf79992e44aa130364fbc97bd8ee2ce') in 0.033708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/_drag_manager_8cs.html
+  artifactKey: Guid(6a0d410da7a15cc40837bc235450b71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/_drag_manager_8cs.html using Guid(6a0d410da7a15cc40837bc235450b71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd69ea00c6fe0d77e42d8cd73e5484f49') in 0.136737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/bc_s.png
+  artifactKey: Guid(f1137fdfa51794c4f8f772772586f022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/bc_s.png using Guid(f1137fdfa51794c4f8f772772586f022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f86859c5a50abc28be29f6ba06251a5') in 0.080244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_editor__coll__graph.dot
+  artifactKey: Guid(5064507e3d2335f4ca0996d750b1dfb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable_editor__coll__graph.dot using Guid(5064507e3d2335f4ca0996d750b1dfb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c16777f1d7e9fb4e4a8764664a3bdfeb') in 0.044348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/nav_g.png
+  artifactKey: Guid(81b81799433eae747be80c0b974c5631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/nav_g.png using Guid(81b81799433eae747be80c0b974c5631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24bf0a53937e76f8ff9414c071e8c812') in 0.086883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/DragNDrop/Scripts/Draggable.cs
+  artifactKey: Guid(03f6ca67fb4c9d645a271ceede0f94a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Scripts/Draggable.cs using Guid(03f6ca67fb4c9d645a271ceede0f94a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c5601b6196393d5407cf7e315927e54') in 0.031720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/search/close.svg
+  artifactKey: Guid(0aa4677ae9c4b324aade683de830db4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/search/close.svg using Guid(0aa4677ae9c4b324aade683de830db4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '300418201f87d38b6d2f18ab4752fc20') in 0.027083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container_editor-members.html
+  artifactKey: Guid(7aa0f400ad2698f4a916fdd2c22e55ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_multiple_container_editor-members.html using Guid(7aa0f400ad2698f4a916fdd2c22e55ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a62c880a603bb6762129c54ad8b04c2f') in 0.148355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container-members.html
+  artifactKey: Guid(4877da6e0cae29d4b864be518423945b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_single_container-members.html using Guid(4877da6e0cae29d4b864be518423945b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92efd7fd06fb537831f88a9a49f59fe3') in 0.132026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 236.040946 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/nav_g.png
+  artifactKey: Guid(81b81799433eae747be80c0b974c5631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/nav_g.png using Guid(81b81799433eae747be80c0b974c5631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d2ac56f5b34395ad0883ca37c97eb74') in 0.088938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/graph_legend.dot
+  artifactKey: Guid(ff6b68fb3b3cd0f418fb71b59d8e00da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/graph_legend.dot using Guid(ff6b68fb3b3cd0f418fb71b59d8e00da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '616bea4db911fca7a2e4b204bc9ef4fc') in 0.001787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs
+  artifactKey: Guid(084c01ab381b9da4082c1f84cf70751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs using Guid(084c01ab381b9da4082c1f84cf70751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ca5fb2217ccf39e5337e8afe6a91155') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Scripts/Managers/GameManager.cs
+  artifactKey: Guid(622b816d06cd7aa4db998f6f6942d8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/GameManager.cs using Guid(622b816d06cd7aa4db998f6f6942d8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e40df6bed0e8a80dfcc6a2f505fb47b') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034664 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/graph_legend.html
+  artifactKey: Guid(c746846fa0d08184b85ed7b41df8ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/graph_legend.html using Guid(c746846fa0d08184b85ed7b41df8ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8eb1ae747c9e9819f862b2ca1039a567') in 0.001722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003910 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/inherit_graph_1.dot
+  artifactKey: Guid(c45e9020c015aae488106247215648e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/inherit_graph_1.dot using Guid(c45e9020c015aae488106247215648e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '274ce9085f79890318dfbc084086f271') in 0.001305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/inherit_graph_0.dot
+  artifactKey: Guid(efcf764395f6d7d46b8affc3d595e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/inherit_graph_0.dot using Guid(efcf764395f6d7d46b8affc3d595e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '62afe3cfc2fabba0e2a3d52adde6644f') in 0.000961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Plugins/DragNDrop/Quickstart Guide.pdf
+  artifactKey: Guid(b7eefaadc0a4f0a4ca19cd2fa02d73b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Quickstart Guide.pdf using Guid(b7eefaadc0a4f0a4ca19cd2fa02d73b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd255933ba38db20a7bc680630a75a46a') in 0.001494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Calle/NavMesh-Ground.asset
+  artifactKey: Guid(1ec66686c8925f74db740491558b9a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Calle/NavMesh-Ground.asset using Guid(1ec66686c8925f74db740491558b9a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0750afec6c078885f5920e36ea16ea8a') in 0.011057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable__coll__graph.dot
+  artifactKey: Guid(fcfe7e66a03ed6d45ad83c022f6944ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_draggable__coll__graph.dot using Guid(fcfe7e66a03ed6d45ad83c022f6944ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '184910e225412f29100c00bd85838e23') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_container__coll__graph.dot
+  artifactKey: Guid(6dbd2e187fe329f4c87d320d0301f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_container__coll__graph.dot using Guid(6dbd2e187fe329f4c87d320d0301f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05c853a4a7a3cb12e875fde2c912cb48') in 0.001374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_container__inherit__graph.dot
+  artifactKey: Guid(266acea2d8860f1458189cd530b5dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DragNDrop/Documentation/class_com_1_1_kherus_emporium_1_1_drag_n_drop_1_1_container__inherit__graph.dot using Guid(266acea2d8860f1458189cd530b5dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac32ab4c57b695663c26d6895ba5d05d') in 0.001478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
