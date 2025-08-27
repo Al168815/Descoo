@@ -60,31 +60,42 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
-    <Compile Include="Assets\Scripts\Enemies\DogEnemy.cs" />
-    <Compile Include="Assets\Scripts\IInteractable.cs" />
-    <Compile Include="Assets\Scripts\Player\InteractionHandler.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\CatNormal.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\TiltWindow.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\Managers\IntroNarrative.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Collectibles\HealingItem.cs" />
-    <Compile Include="Assets\Scripts\UI\MenuDerrota.cs" />
-    <Compile Include="Assets\Scripts\Collectibles\ItemCollector.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\Medkit.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInteraction.cs" />
+    <Compile Include="Assets\Scripts\Managers\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Player\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Managers\SceneBoostrap.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\Components\Jump.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\FishPickup.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\DragMe.cs" />
     <Compile Include="Assets\Scripts\Player\FirstPersonController.cs" />
-    <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Collectibles\CatBehavior.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
-    <Compile Include="Assets\Scripts\UI\MenuPrincipal.cs" />
-    <Compile Include="Assets\Scripts\UI\MenuVictoria.cs" />
-    <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\Collectibles\InventoryManager.cs" />
-    <Compile Include="Assets\Scripts\Player\IthemThrower.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\CatRunner.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Player\Mini First Person Controller\Scripts\Components\Zoom.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Unity UI Samples\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\Unity UI Samples\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\Unity UI Samples\Fonts\Jupiter\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -849,6 +860,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
+      <Project>{7B6B4460-19D0-3606-1297-28785EC02DB4}</Project>
+      <Name>Assembly-CSharp-firstpass.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
       <Project>{D9D0BC2E-2ED7-6201-9461-53D88BB52437}</Project>
       <Name>Unity.AI.Navigation.Player</Name>

@@ -1,30 +1,45 @@
 using UnityEngine;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth = 100f;
-    private float currentHealth;
+    [Header("Vida")]
+    public int maxHealth = 100;
+    [SerializeField] private int currentHealth;
+
+    public event Action<float> OnHealthNormalizedChanged; // 0..1
 
     void Start()
     {
         currentHealth = maxHealth;
-        UIManager.Instance.UpdateHealth(currentHealth / maxHealth);
+        Notify();
     }
 
-    public void TakeDamage(float percentage)
+    public void TakeDamage(int amount)
     {
-        currentHealth -= maxHealth * percentage;
-        UIManager.Instance.UpdateHealth(currentHealth / maxHealth);
-
+        currentHealth = Mathf.Max(0, currentHealth - Mathf.Max(0, amount));
+        Debug.Log($"[PlayerHealth] Daño: -{amount}. Vida: {currentHealth}/{maxHealth}");
+        Notify();
         if (currentHealth <= 0)
         {
-            GameManager.Instance.TriggerGameOver();
+            Debug.Log("[PlayerHealth] GAME OVER");
+            // Aquí puedes cargar escena GameOver si quieres
+            // SceneManager.LoadScene("GameOver");
         }
     }
 
-    public void Heal(float amount)
+    public void Heal(int amount)
     {
-        currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
-        UIManager.Instance.UpdateHealth(currentHealth / maxHealth);
+        currentHealth = Mathf.Min(maxHealth, currentHealth + Mathf.Max(0, amount));
+        Debug.Log($"[PlayerHealth] Curación: +{amount}. Vida: {currentHealth}/{maxHealth}");
+        Notify();
     }
+
+    void Notify()
+    {
+        float t = maxHealth > 0 ? (float)currentHealth / maxHealth : 0f;
+        OnHealthNormalizedChanged?.Invoke(t);
+    }
+
+    public int Current => currentHealth;
 }

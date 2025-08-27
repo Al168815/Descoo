@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638908079150318383
-    m_Hash: 1627938430
+      ticks: 638919316038369976
+    m_Hash: 477654602
   m_LockFileStatus:
     m_FilePath: C:/Users/Diana/Desktop/Descoo 2025-0.1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638908079150374853
-    m_Hash: 1550642596
+      ticks: 638919316038454225
+    m_Hash: 3053234988
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,65 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Diana/Desktop/Descoo 2025-0.1/Packages
 m_EditorVersion: 2022.3.62f1 (4af31df58517)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\Diana\Desktop\Descoo 2025-0.1\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ai.navigation@1.1.6
   testable: 0
   isDirectDependency: 1
@@ -408,11 +467,13 @@ m_ResolvedPackages:
     - 2.8.1
     - 2.8.2
     - 2.9.1
+    - 2.9.2
     compatible:
     - 2.7.1
     - 2.8.1
     - 2.8.2
     - 2.9.1
+    - 2.9.2
     recommended: 2.7.1
     deprecated: []
   dependencies: []
@@ -686,12 +747,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.textmeshpro@3.0.7
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.9
   source: 1
-  resolvedPath: C:\Users\Diana\Desktop\Descoo 2025-0.1\Library\PackageCache\com.unity.textmeshpro@3.0.7
+  resolvedPath: C:\Users\Diana\Desktop\Descoo 2025-0.1\Library\PackageCache\com.unity.textmeshpro@3.0.9
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -820,6 +881,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.10
     - 3.2.0-pre.11
     - 3.2.0-pre.12
+    - 3.2.0-pre.13
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -838,6 +900,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.10
     - 3.2.0-pre.11
     - 3.2.0-pre.12
+    - 3.2.0-pre.13
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -868,13 +931,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638410382150000000
+  datePublishedTicks: 638515173480000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.7
