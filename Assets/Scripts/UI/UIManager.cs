@@ -1,66 +1,37 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using UnityEngine.UI;  // Necesario para usar Image
+
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
 
     [Header("Referencias UI")]
-    public Slider healthSlider;
-    public Text catsText;
-    public Text fishText;
-
-    PlayerHealth playerHealth;
+    public TextMeshProUGUI catsText;  // Contador de gatos
+    public TextMeshProUGUI fishText;  // Contador de peces
 
     void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
-        // Si quieres que sobreviva entre escenas, descomenta:
-        // DontDestroyOnLoad(gameObject);
     }
 
-    void Start()
-    {
-        var player = GameObject.FindGameObjectWithTag("Player");
-        if (player)
-        {
-            playerHealth = player.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-                playerHealth.OnHealthNormalizedChanged += UpdateHealth;
-        }
-
-        // Suscribirse a cambios de gatos del GameManager
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.OnCatsChanged += UpdateCats;
-            var (cur, tar) = GameManager.Instance.GetCatsProgress();
-            UpdateCats(cur, tar);
-        }
-    }
-
-    void OnDestroy()
-    {
-        if (playerHealth != null)
-            playerHealth.OnHealthNormalizedChanged -= UpdateHealth;
-
-        if (GameManager.Instance != null)
-            GameManager.Instance.OnCatsChanged -= UpdateCats;
-    }
-
-    void UpdateHealth(float t)
-    {
-        if (healthSlider) healthSlider.value = Mathf.Clamp01(t);
-    }
-
+    // Actualiza el contador de gatos en UI
     public void UpdateCats(int current, int target)
     {
-        if (catsText) catsText.text = $"Gatos: {current} / {target}";
+        if (catsText)
+        {
+            catsText.text = $"{current} / {target}";
+        }
     }
 
+    // Actualiza el contador de peces en UI
     public void UpdateFishCount(int count)
     {
-        if (fishText) fishText.text = $"Pescados: {count}";
+        if (fishText)
+        {
+            fishText.text = $" {count}";
+        }
     }
 }
-

@@ -9,31 +9,22 @@ public class CatRunner : MonoBehaviour
     public float repathInterval = 0.25f;
 
     [Header("Daño si no está alimentado")]
-    public int damageAmount = 10;        // <-- usado por PlayerInteraction
+    public int damageAmount = 10;
     public float damageCooldown = 1.0f;
 
     [Header("Estado")]
-    public bool isFed = false;           // <-- usado por PlayerInteraction
+    public bool isFed = false;
 
     private NavMeshAgent agent;
     private Transform player;
     private float lastRepath = -999f;
     private float lastDamageTime = -999f;
 
-    void Reset()
-    {
-        var col = GetComponent<Collider>();
-        col.isTrigger = true; // facilita interacción con CharacterController
-    }
-
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         var p = GameObject.FindGameObjectWithTag("Player");
         if (p) player = p.transform;
-
-        if (!agent) Debug.LogError("[CatRunner] Falta NavMeshAgent.");
-        if (!player) Debug.LogError("[CatRunner] No encontré Player (tag Player).");
     }
 
     void Update()
@@ -47,11 +38,8 @@ public class CatRunner : MonoBehaviour
                 lastRepath = Time.time;
                 Vector3 away = (transform.position - player.position).normalized;
                 Vector3 dest = transform.position + away * fleeDistance;
-
-                if (NavMesh.SamplePosition(dest, out var hit, 3f, NavMesh.AllAreas))
-                    agent.SetDestination(hit.position);
-                else
-                    agent.SetDestination(transform.position + away * (fleeDistance * 0.5f));
+                agent.SetDestination(dest);
+                Debug.Log("[CatRunner] Corriendo para huir del jugador.");
             }
         }
         else
@@ -82,7 +70,7 @@ public class CatRunner : MonoBehaviour
         }
         else
         {
-            Debug.Log("[CatRunner] Gato 2 recolectado.");
+            Debug.Log("[CatRunner] Gato recolectado.");
             GameManager.Instance?.RegisterCatCollected();
             Destroy(gameObject, 0.05f);
         }

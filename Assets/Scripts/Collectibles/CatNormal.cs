@@ -3,13 +3,14 @@
 public class CatNormal : MonoBehaviour
 {
     [Header("Daño si no está alimentado")]
-    public int damageAmount = 10;        // <-- usado por PlayerInteraction
+    public int damageAmount = 10;
     public float damageCooldown = 1.0f;
 
     [Header("Estado")]
-    public bool isFed = false;           // <-- usado por PlayerInteraction
+    public bool isFed = false;
 
-    private float lastDamageTime = -999f;
+    private float lastDamageTime = -999f;  // Última vez que se aplicó daño
+    private bool isDamaging = false;      // Para evitar que se aplique daño continuamente
 
     void OnTriggerEnter(Collider other)
     {
@@ -20,23 +21,19 @@ public class CatNormal : MonoBehaviour
 
         if (!isFed)
         {
-            // ¿Traes pescado? -> alimenta; si no, daño inmediato
-            if (inv != null && inv.UseFish(1))
-            {
-                isFed = true;
-                Debug.Log("[CatNormal] Gato alimentado. Ahora puedes recolectarlo.");
-            }
-            else
+            // Si el gato no está alimentado, aplica daño
+            if (!isDamaging)
             {
                 TryDamage(hp);
+                isDamaging = true;  // Marca que el daño ha sido aplicado
             }
         }
         else
         {
-            // ya alimentado → recolectar
-            Debug.Log("[CatNormal] Gato recolectado.");
+            // Si está alimentado, recolectar
+            Debug.Log("[CatNormal] Gato alimentado y recolectado.");
             GameManager.Instance?.RegisterCatCollected();
-            Destroy(gameObject, 0.05f);
+            Destroy(gameObject, 0.05f);  // Destruir el gato
         }
     }
 
@@ -45,6 +42,7 @@ public class CatNormal : MonoBehaviour
         if (!other.CompareTag("Player")) return;
         if (isFed) return;
 
+        // Solo aplicar daño una vez cada cierto tiempo
         var hp = other.GetComponent<PlayerHealth>();
         TryDamage(hp);
     }
@@ -52,10 +50,15 @@ public class CatNormal : MonoBehaviour
     void TryDamage(PlayerHealth hp)
     {
         if (hp == null) return;
-        if (Time.time - lastDamageTime < damageCooldown) return;
+        if (Time.time - lastDamageTime < damageCooldown) return;  // Verifica que haya pasado el tiempo de cooldown
 
-        hp.TakeDamage(damageAmount);
-        lastDamageTime = Time.time;
-        Debug.Log("[CatNormal] Daño al jugador por intentar recolectar sin pescado.");
+        hp.TakeDamage(damageAmount);  // Aplica el daño al jugador
+        lastDamageTime = Time.time;   // Actualiza el tiempo del último daño
+        Debug.Log("[CatNormal] Daño al jugador por tocar el gato sin alimentarlo.");
+    }
+
+    void ResetDamageFlag()
+    {
+        isDamaging = false;  // Resetea la bandera de daño después de un pequeño tiempo
     }
 }

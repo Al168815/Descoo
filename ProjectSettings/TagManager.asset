@@ -10,6 +10,10 @@ TagManager:
   - Gato
   - Gato2
   - Medkit
+  - Gato1
+  - Gato3
+  - Gato4
+  - Gato5
   layers:
   - Default
   - TransparentFX

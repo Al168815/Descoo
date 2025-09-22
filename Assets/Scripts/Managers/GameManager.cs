@@ -9,8 +9,10 @@ public class GameManager : MonoBehaviour
     [Header("Escenas")]
     [Tooltip("Nombre exacto de la escena del menú principal en Build Settings")]
     public string mainMenuSceneName = "MainMenu";
+
     [Tooltip("Orden exacto de tus niveles jugables")]
     public string[] levelOrder = { "Calle", "Parque", "Escuela" };
+
     [Tooltip("Nombre exacto de la escena de victoria")]
     public string winSceneName = "WinScene";
 
@@ -18,12 +20,25 @@ public class GameManager : MonoBehaviour
     public int targetCatsPerLevel = 5;
     [SerializeField] private int catsCollectedThisLevel = 0;
 
-   
     [Header("UI (solo MainMenu)")]
     public GameObject controlsPanel;
     public GameObject creditsPanel;
 
-    public event Action<int, int> OnCatsChanged; // (actual, objetivo)
+    // --- NUEVO: estado por nivel ---
+    [Header("Estado del jugador (por nivel)")]
+    [SerializeField] private int fishCount = 0;
+    [SerializeField] private float maxHealth = 100f;
+    [SerializeField] private float currentHealth = 100f;
+
+    // --- NUEVO: pausa ---
+    private bool isPaused = false;
+
+    // (actual, objetivo)
+    public event Action<int, int> OnCatsChanged;
+    // NUEVO
+    public event Action<int> OnFishChanged;
+    public event Action<float, float> OnHealthChanged;
+    public event Action<bool> OnPauseChanged;
 
     // --- Singleton ---
     void Awake()
@@ -42,23 +57,28 @@ public class GameManager : MonoBehaviour
     // --- Por escena cargada ---
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Asegurar que el tiempo está corriendo
-        Time.timeScale = 1f;
+        // Siempre arrancamos sin pausa al cargar
+        SetPaused(false);
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        // Si estoy en un nivel jugable, reinicio conteo de gatos y notifico al UI
         if (IsLevel(scene.name))
         {
+            // Reset de progreso por nivel
             catsCollectedThisLevel = 0;
+            fishCount = 0;
+            currentHealth = maxHealth;
+
             OnCatsChanged?.Invoke(catsCollectedThisLevel, targetCatsPerLevel);
+            OnFishChanged?.Invoke(fishCount);
+            OnHealthChanged?.Invoke(currentHealth, maxHealth);
+            OnPauseChanged?.Invoke(false);
         }
 
-        // Si estoy en el menú principal, intento auto-asignar paneles si no están
         if (scene.name == mainMenuSceneName)
         {
             TryAutowireMenuPanels();
-            // Por defecto, ocultos
             SetActiveSafe(controlsPanel, false);
             SetActiveSafe(creditsPanel, false);
         }
@@ -71,6 +91,13 @@ public class GameManager : MonoBehaviour
     {
         catsCollectedThisLevel++;
         OnCatsChanged?.Invoke(catsCollectedThisLevel, targetCatsPerLevel);
+
+        // Llamamos a UIManager para actualizar el UI
+        if (UIManager.Instance != null)
+        {
+            var (current, target) = GetCatsProgress();
+            UIManager.Instance.UpdateCats(current, target);
+        }
 
         if (catsCollectedThisLevel >= targetCatsPerLevel)
             LoadNextAccordingToOrder();
@@ -92,7 +119,6 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                // Último nivel → WinScene
                 if (!string.IsNullOrEmpty(winSceneName) && CanLoad(winSceneName))
                     SceneManager.LoadScene(winSceneName);
                 else
@@ -130,10 +156,73 @@ public class GameManager : MonoBehaviour
         (catsCollectedThisLevel, targetCatsPerLevel);
 
     // =====================================================================
+    //                             PECES (FISH)
+    // =====================================================================
+    public int GetFishCount() => fishCount;
+
+    public void AddFish(int amount = 1)
+    {
+        fishCount = Mathf.Max(0, fishCount + amount);
+        OnFishChanged?.Invoke(fishCount);
+
+        // Llamamos a UIManager para actualizar el UI
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateFishCount(fishCount);
+        }
+    }
+    public bool SpendFish(int amount = 1)
+    {
+        if (fishCount < amount) return false;
+        fishCount -= amount;
+        OnFishChanged?.Invoke(fishCount);
+        return true;
+    }
+
+    // =====================================================================
+    //                               SALUD
+    // =====================================================================
+    public float GetMaxHealth() => maxHealth;
+    public float GetCurrentHealth() => currentHealth;
+
+    public void SetMaxHealth(float newMax, bool fillToMax = true)
+    {
+        maxHealth = Mathf.Max(1f, newMax);
+        if (fillToMax) currentHealth = maxHealth;
+        currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
+    }
+
+    public void Heal(float amount)
+    {
+        if (amount <= 0f) return;
+        currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
+    }
+
+
+
+
+
+    // =====================================================================
+    //                               PAUSA
+    // =====================================================================
+    public void TogglePause() => SetPaused(!isPaused);
+
+    public void SetPaused(bool value)
+    {
+        isPaused = value;
+        Time.timeScale = isPaused ? 0f : 1f;
+        Cursor.lockState = isPaused ? CursorLockMode.None : CursorLockMode.None;
+        Cursor.visible = true;
+        OnPauseChanged?.Invoke(isPaused);
+    }
+
+    public bool IsPaused() => isPaused;
+
+    // =====================================================================
     //                            MENÚ PRINCIPAL
     // =====================================================================
-
-    // Llamar desde el botón "Iniciar"
     public void StartGame()
     {
         if (levelOrder == null || levelOrder.Length == 0)
@@ -147,7 +236,6 @@ public class GameManager : MonoBehaviour
         else Debug.LogError($"[GameManager] '{firstLevel}' no está en Build Settings.");
     }
 
-    // Llamar desde el botón "Salir"
     public void QuitGame()
     {
         Debug.Log("[GameManager] Quit");
@@ -157,7 +245,6 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
-    // Llamar desde el botón "Controles"
     public void ShowControls()
     {
         SetActiveSafe(controlsPanel, true);
@@ -169,7 +256,6 @@ public class GameManager : MonoBehaviour
         SetActiveSafe(controlsPanel, false);
     }
 
-    // Llamar desde el botón "Créditos"
     public void ShowCredits()
     {
         SetActiveSafe(creditsPanel, true);
@@ -181,14 +267,12 @@ public class GameManager : MonoBehaviour
         SetActiveSafe(creditsPanel, false);
     }
 
-    // Llamar desde botones "Cerrar" dentro de cada panel, si los pones
     public void CloseAllPanels()
     {
         SetActiveSafe(controlsPanel, false);
         SetActiveSafe(creditsPanel, false);
     }
 
-    // Opcional para un botón "Volver al Menú" desde niveles
     public void GoToMainMenu()
     {
         if (CanLoad(mainMenuSceneName)) SceneManager.LoadScene(mainMenuSceneName);
@@ -207,8 +291,8 @@ public class GameManager : MonoBehaviour
         }
         if (!creditsPanel)
         {
-            var go = GameObject.Find("CreditsPanel");
-            if (go) creditsPanel = go;
+            var go2 = GameObject.Find("CreditsPanel");
+            if (go2) creditsPanel = go2;
         }
     }
 
@@ -217,10 +301,16 @@ public class GameManager : MonoBehaviour
         if (go && go.activeSelf != value) go.SetActive(value);
     }
 
-    // --- DEBUG opcional: avanzar de nivel con F9 ---
     void Update()
     {
+        // Tecla P para abrir/cerrar pausa
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            TogglePause();
+        }
+
 #if UNITY_EDITOR
+        // DEBUG opcional: avanzar de nivel con F9
         if (Input.GetKeyDown(KeyCode.F9))
         {
             Debug.Log("[GameManager] DEBUG: Avanzar nivel (F9).");
